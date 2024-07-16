@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  flex-direction: column;
+  width: 100%;
+
+  .row {
+    display: flex;
+    justify-content: start;
+    overflow: auto;
+    flex-direction: row;
+    align-items: center;
+
+    .month {
+      width: 4%;
+    }
+  }
+}
+
+.square {
+  height: 20px;
+  width: 20px;
+  margin: 6px;
+}
